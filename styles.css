@@ -447,3 +447,56 @@ button.banner{
     display: flex;
     
 }  
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+footer .col{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 20px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+
+}
+footer a{
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom:10px ;
+    color: black;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .col-install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .copywrite{
+   
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+footer .follow i:hover, footer a:hover{
+    color: #088178;
+
+}
